@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Tutorat</string>
+    <string name="fichier_preference">MesPreferences</string>
+    <string name="ajouter_une_question">Ajouter une question</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="explications">Explications…</string>
+    <string name="sujet">Sujet</string>
+
+    <string name="url_spring0">http://10.0.2.2:8080/</string>
+    <string name="url_spring1">http://192.168.1.150:8080/</string>
+    <string name="url_spring">http://146.59.199.18:8080/tutorat/</string>
+    <string name="ecouter">Ecouter</string>
+    <string name="voir_contenu">Voir le contenu</string>
+    <string name="niveau">Niveau</string>
+    <string name="prendre_photo">Prendre une photo</string>
+    <string name="enregistrement_vocal">Enregistrement vocal</string>
+    <string name="tourner">Tourner</string>
+    <string name="voir_question">Voir la question</string>
+    <string name="repondu">Répondu !</string>
+    <string name="voir_reponse">Voir la réponse</string>
+    <string name="supprimer">Supprimer</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutEditionQuestion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".view.ListeQuestionActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView_listeQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/liste_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="56dp" />
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar_EditionActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:backgroundTint="@color/purple_200"
+        app:fabAlignmentMode="end"
+        app:fabCradleMargin="6dp"
+        app:fabCradleRoundedCornerRadius="12dp"
+
+        app:fabCradleVerticalOffset="0dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/button_ajouterQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:contentDescription="@string/ajouter_une_question"
+        android:focusable="true"
+        app:backgroundTint="@color/purple_500"
+        app:fabSize="auto"
+        app:layout_anchor="@id/bottomAppBar_EditionActivity"
+        app:maxImageSize="35dp"
+        app:srcCompat="@drawable/ic_post_add" />
+
+    <TextView
+        android:id="@+id/textView_titreQuestions"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@android:drawable/button_onoff_indicator_off"
+        android:backgroundTint="@color/teal_200"
+        android:backgroundTintMode="add"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:text="Chargement" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
